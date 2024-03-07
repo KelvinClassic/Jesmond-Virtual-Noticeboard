@@ -1,0 +1,48 @@
+#jesmond_logo {
+  transform-origin: center;
+  transition: transform 2s ease-in-out;
+}
+
+.set_relative {
+  position: relative;
+}
+
+.slider_div {
+  position: absolute;
+  left: 18%;
+}
+
+.fa-circle-arrow-left,
+.fa-circle-arrow-right {
+  font-size: 30px;
+  position: absolute;
+}
+
+.fa-circle-arrow-left {
+  top: 45%;
+  left: 15%;
+  background-color: white !important;
+
+}
+
+.fa-circle-arrow-right {
+  top: 45%;
+  right: 15%;
+  background-color: white !important;
+
+}
+
+@media screen and (max-width: 500px) {
+  .slider_div {
+    left: 0;
+  }
+
+  #jesmond_logo{
+    height: 300px;
+  }
+  #sliding_image{
+    height: 300px;
+  }
+}
+
+
